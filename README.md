@@ -57,37 +57,6 @@ pip install pandas numpy matplotlib seaborn scipy scikit-learn jupyter
 ### Data Processing Notes
 1. **Missing Values**: Some meteorological data files may contain missing values. Proper data cleaning and interpolation methods should be applied before analysis.
 
-2. **Data Format**: 
-   - Precipitation data: Typically in mm/hour or mm/day
-   - Dam inflow data: Typically in m³/s or million m³
-   - Date format: Various formats may be used (check individual files)
-
-3. **Quality Control**: Always perform quality control checks on meteorological and hydrological data before analysis.
-
-## 📋 Analysis Workflow
-
-1. **Data Loading and Preprocessing**
-   - Load data from CSV/ZIP files
-   - Handle missing values
-   - Convert date formats
-   - Quality control checks
-
-2. **Statistical Analysis**
-   - Calculate basic statistics
-   - Trend analysis
-   - Frequency analysis
-
-3. **Hydrological Analysis**
-   - Flow duration curve analysis
-   - IDF curve development
-   - Flood frequency analysis
-   - Drought analysis using SPI
-
-4. **Visualization**
-   - Time series plots
-   - Statistical distribution plots
-   - Comparative analysis charts
-
 ## 📚 References
 
 - Korea Meteorological Administration: [www.kma.go.kr](https://www.kma.go.kr)
@@ -97,11 +66,3 @@ pip install pandas numpy matplotlib seaborn scipy scikit-learn jupyter
 ## 📄 License
 
 Please ensure compliance with data usage terms from respective organizations (KMA, K-water, USGS) when using this data for research or commercial purposes.
-
-## 🤝 Contributing
-
-Contributions to improve analysis methods or add new examples are welcome. Please ensure proper documentation and data source attribution.
-
-## 📧 Contact
-
-For questions regarding the analysis methods or data interpretation, please refer to the respective data provider's documentation or contact the repository maintainer.
