@@ -28,10 +28,13 @@ This repository contains analysis examples using meteorological and hydrological
 
 ## 📈 Analysis Examples (Jupyter Notebooks)
 
+### 1. Flow Frequency Analysis (FFA)
+- **`ffa.ipynb`** - Example of analysis of flow frequency
+- Fit-tests are implemented (KS-test, AD-test and delta AIC methods)
+
 ### 1. Flow Duration Curve (FDC)
 - **`fdc.ipynb`** - Example of creating flow duration curves
 - Analysis of flow persistence characteristics
-- Statistical characterization of river flow
 
 ### 2. Intensity-Duration-Frequency (IDF) Curve
 - **`idf.ipynb`** - Example of creating rainfall intensity-duration-frequency curves
